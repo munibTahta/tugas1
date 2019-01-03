@@ -17,10 +17,10 @@ const profileImage = require('./images/clear.png');
 			return (
 			<ImageBackground source={profileImage} style={styles.container}>
 			<KeyboardAvoidingView style={styles.container} behavior="padding">
-			<Text style={[styles.largeText, styles.textStyle]}>Kalimantan Selatan</Text>
-			<Text style={[styles.largeText, styles.textStyle]}>2015150078</Text>
+			<Text style={[styles.largeText, styles.textStyle]}>Sukabumi</Text>
+			<Text style={[styles.largeText, styles.textStyle]}>2015150088</Text>
 			<Text style={[styles.smallText, styles.textStyle]}>sunny</Text>
-			<Text style={[styles.largeText, styles.textStyle]}>0°</Text>
+			<Text style={[styles.largeText, styles.textStyle]}>32°</Text>
 			<TextInput
 			autoCorrect={false}
 			placeholder="Masukkan Kota Kelahiran Anda"
